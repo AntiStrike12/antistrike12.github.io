@@ -83,10 +83,24 @@ $(document).ready(function() {
 
             icon.addClass('ion-navicon-round');
             iocn.removeClass('ion-close-round');
-
         }
-
-
     });
+
+    var map = new GMaps ({
+        div: '.map',
+        lat: 29.8174782,
+        lng: -95,
+        zoom: 10,
+        draggable: false,
+        scrollwheel: false,
+        disableDoubleClickZoom: true,
+        zoomControl: false 
+    });
+
+    map.addMarker({
+          lat: 29.760926,
+          lng: -95.371272,
+          title: 'Houston, Texas'
+        })
 
 });

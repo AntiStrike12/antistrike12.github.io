@@ -492,10 +492,6 @@ cite img {
 /* SECTION 6 - PLANS */
 /* ************************************************************************************************************* */
 
-.section-plans {
-    background-color: #f0f0f0;
-
-}
 
 .plan-box {
     background-color: #fff;
@@ -551,8 +547,32 @@ cite img {
 /* SECTION 7 - FORM */
 /* ************************************************************************************************************* */
 
+.map-box {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.map {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    z-index: 0;
+}
+
+.form-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(94.1%, 94.1%, 94.1%, 0.90);
+    z-index: 10;
+    height: 560px;
+    width: 50%;
+    padding: 40px 0px;
+}
+
 .contact-form {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -582,6 +602,7 @@ input[type=checkbox] {
 /* ************************************************************************************************************* */
 /* FOOTER */
 /* ************************************************************************************************************* */
+
 
 footer {
     background-color: #333;
@@ -674,7 +695,8 @@ footer .ion-social-instagram:hover {
 }
 
 .js--wp4 {
-    animation-duration: 1.5s;
+    animation-duration: 1s;
+    opacity: 1;
 }
 
 .js--wp1.animated,
