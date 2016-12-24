@@ -54,6 +54,13 @@
         width: 80%;
     }
 
+    .section-testimonials {
+        background-attachment: scroll;
+    }
+
+    header {
+        background-attachment: scroll;
+    }
 
 }
 
